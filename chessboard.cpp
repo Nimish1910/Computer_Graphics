@@ -90,33 +90,6 @@ void renderFunction()
     glColor3f(1.0, 1.0, 1.0);
     // glOrtho(-1.0, 1.0, -1.0, 1.0, -1.0, 1.0);
     gluOrtho2D(0.0,1500.0,0.0,900.0);
-    /*glBegin(GL_LINES);
-        glVertex2f(100.0,100.0);
-        glVertex2f(1400.0,800.0);
-    glEnd();*/
-    /*glBegin(GL_TRIANGLES);
-        glVertex2f(-150,-150);
-        glVertex2f(0,100);
-        glVertex2f(150,-150);
-    glEnd();*/
-    /*glBegin(GL_POLYGON);
-        glVertex2f(350,-250);
-        glVertex2f(400,-250);
-        glVertex2f(400,-300);
-        glVertex2f(350,-300);
-    glEnd();*/
-    
-    /* Stair case
-    simple_line(50, 100, 50,300);
-    simple_line(50, 300, 250,300);
-    simple_line(250, 300, 250,500);
-    simple_line(250, 500, 450,500);
-    simple_line(450, 500, 450,700);
-    simple_line(450, 700, 650,700);
-    simple_line(650, 100, 650,700);
-    simple_line(50,100,650, 100);*/
-    
-    // dotted_line(100,100,700,700);
     
     // chess board
     dotted_line(600,300,600,455);

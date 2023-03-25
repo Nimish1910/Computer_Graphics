@@ -112,21 +112,6 @@ void renderFunction()
     glColor3f(1.0, 1.0, 1.0);
     // glOrtho(-1.0, 1.0, -1.0, 1.0, -1.0, 1.0);
     gluOrtho2D(0.0,1500.0,0.0,900.0);
-    /*glBegin(GL_LINES);
-        glVertex2f(100.0,100.0);
-        glVertex2f(1400.0,800.0);
-    glEnd();*/
-    /*glBegin(GL_TRIANGLES);
-        glVertex2f(-150,-150);
-        glVertex2f(0,100);
-        glVertex2f(150,-150);
-    glEnd();*/
-    /*glBegin(GL_POLYGON);
-        glVertex2f(350,-250);
-        glVertex2f(400,-250);
-        glVertex2f(400,-300);
-        glVertex2f(350,-300);
-    glEnd();*/
     /*
     simple_line(50, 100, 50,300);
     simple_line(50, 300, 250,300);
